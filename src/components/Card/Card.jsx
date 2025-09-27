@@ -5,7 +5,7 @@ import pik3 from '../../images/pik3.jpg'
 import pik4 from '../../images/pik4.jpg'
 import pik5 from '../../images/pik5.jpg'
 import pik6 from '../../images/pik6.jpg'
-import pik7 from '../../images/pik7.jpg'
+
 
 function Card() {
 
@@ -41,11 +41,7 @@ function Card() {
       name: "K.M Hasan",
       title: "App Developer",
     },
-    {
-      img: pik7,
-      name: "K.M Hasan",
-      title: "App Developer",
-    },
+
   ];
   return (
     <div className='mt-24  mx-auto'>
