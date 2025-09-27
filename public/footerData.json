@@ -1,0 +1,38 @@
+[
+  {
+    "title": "My Account",
+    "links": [
+      { "name": "Creator Dashboard", "url": "#" },
+      { "name": "Wallet", "url": "#" },
+      { "name": "Create Item", "url": "#" },
+      { "name": "My Account", "url": "#" }
+    ]
+  },
+  {
+    "title": "Web Link",
+    "links": [
+      { "name": "Collections", "url": "#" },
+      { "name": "Items Details", "url": "#" },
+      { "name": "Rankings", "url": "#" },
+      { "name": "User Profile", "url": "#" }
+    ]
+  },
+  {
+    "title": "Community",
+    "links": [
+      { "name": "Blog Category", "url": "#" },
+      { "name": "Blog Author", "url": "#" },
+      { "name": "Blog", "url": "#" },
+      { "name": "Blog Details", "url": "#" }
+    ]
+  },
+  {
+    "title": "Contact",
+    "links": [
+      { "name": "Rangpur 1200 RK Road", "url": "#" },
+      { "name": "BD Author", "url": "#" },
+      { "name": "bdauther@gmail.com", "url": "mailto:bdauther@gmail.com" },
+      { "name": "Phone : 01725242010", "url": "tel:01725242010" }
+    ]
+  }
+]
