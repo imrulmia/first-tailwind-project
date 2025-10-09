@@ -44,7 +44,7 @@ function Card() {
 
   ];
   return (
-    <div className='mt-24  mx-auto'>
+    <div className='mt-24  mx-auto'  >
 
       <h2 className='text-white text-3xl text-center mb-12'>Our Developers</h2>
 

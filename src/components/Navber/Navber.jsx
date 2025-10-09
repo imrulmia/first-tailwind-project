@@ -13,13 +13,13 @@ const Navber = () => {
 
   const navLink = [
     { href: "#home", label: "Home" },
-    { href: "#Products", label: "Product" },
-    { href: "#blogs", label: "Blogs" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#contact", label: "Contact" },
+    { href: "#developers", label: "Our Developers" },
+    { href: "#clients", label: "Clients" },
+    { href: "#course", label: "Courses" },
+
   ]
   return (
-    <body className='bg-[#2B2D33]'>
+    <div className='bg-[#2B2D33]' id='home'>
       <nav className='bg-[#2B2D33] shadow-xl sm:sticky top-0 z-50'>
         <div className='container mx-auto'>
           <div className='sm:flex justify-between items-center py-5 '>
@@ -43,7 +43,7 @@ const Navber = () => {
 
       {/* header section code start here */}
 
-      <header>
+      <header >
         <div className='container text-white flex flex-col sm:flex-row justify-around items-center text-center border border-indigo-600 border-t-0 mx-auto h-[80vh] px-10 pt-10'>
           <div className=''>
             <h1 className='text-2xl sm:text-5xl font-semibold mb-7 sm:mb-12 '>Smart Coders: Learn <br />Programming</h1>
@@ -62,11 +62,11 @@ const Navber = () => {
       <main>
         {/* main section code start here */}
 
-        <section>
+        <section id='developers'>
           <Card></Card>
         </section>
 
-        <section>
+        <section id='clients'>
           <Service></Service>
         </section>
 
@@ -74,7 +74,7 @@ const Navber = () => {
           <Form></Form>
         </section>
 
-        <section>
+        <section id='course'>
           <Price></Price>
         </section>
 
@@ -87,7 +87,7 @@ const Navber = () => {
       <footer>
         <Footer></Footer>
       </footer>
-    </body>
+    </div>
   );
 };
 
